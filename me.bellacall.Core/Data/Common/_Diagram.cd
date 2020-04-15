@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="me.bellacall.Core.Data.Common.Region" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\Region.cs</FileName>
+      <NewMemberFileName>Data\Common\Provider.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.Provider" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\Provider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.DEF" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACgIAEAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\DEF.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Provider" />
+      <Property Name="Region" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.283" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.MNP" Collapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACgIAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\MNP.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Provider" />
+      <Property Name="Region" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.Tariff" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAgAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\Tariff.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="TariffConditions" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.TariffCondition" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACQAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Data\Common\TariffCondition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.ScriptFunction" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <AssociationLine Name="Input" Type="me.bellacall.Core.Data.Common.ScriptFunctionParameter" FixedFromPoint="true">
+      <Path>
+        <Point X="1.938" Y="4.562" />
+        <Point X="1.938" Y="5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Output" Type="me.bellacall.Core.Data.Common.ScriptFunctionParameter" FixedFromPoint="true">
+      <Path>
+        <Point X="3.125" Y="4.562" />
+        <Point X="3.125" Y="5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAIAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\ScriptFunction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Input" />
+      <Property Name="Output" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.ScriptFunctionParameter" Collapsed="true">
+    <Position X="1.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\ScriptFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.ScriptNamespace" Collapsed="true">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Data\Common\ScriptNamespace.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Functions" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.ScriptNamespaces" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Data\Common\ScriptNamespace.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="List" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="me.bellacall.Core.Data.Common.Property" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAACQAAAAAAAAA=</HashCode>
+      <FileName>Data\Common\Property.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="me.bellacall.Core.Data.Common.PropertyType" Collapsed="true">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAACAAAAAAABAAAAAAAAAQA=</HashCode>
+      <FileName>Data\Common\Property.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

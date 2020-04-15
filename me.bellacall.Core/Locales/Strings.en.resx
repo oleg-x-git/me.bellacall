@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AspNetRolePermission_Entity" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="AspNetRolePermission_List" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="AspNetRole_Entity" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="AspNetRole_List" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="AspNetUserLog_Entity" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="AspNetUserLog_List" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="AspNetUserRole_Entity" xml:space="preserve">
+    <value>Account role</value>
+  </data>
+  <data name="AspNetUserRole_List" xml:space="preserve">
+    <value>Account roles</value>
+  </data>
+  <data name="AspNetUser_Entity" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="AspNetUser_List" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="Campaign_Entity" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="Campaign_List" xml:space="preserve">
+    <value>Campaigns</value>
+  </data>
+  <data name="Cascade_Message" xml:space="preserve">
+    <value>The {0} contains [{1}]. Removal is not allowed.</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CompanyExpense_Entity" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="CompanyExpense_List" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="CompanyIncome_Entity" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="CompanyIncome_List" xml:space="preserve">
+    <value>Incomes</value>
+  </data>
+  <data name="Company_Entity" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Company_List" xml:space="preserve">
+    <value>Clients</value>
+  </data>
+  <data name="ContactGroup_Entity" xml:space="preserve">
+    <value>Contact group</value>
+  </data>
+  <data name="ContactGroup_List" xml:space="preserve">
+    <value>Contact groups</value>
+  </data>
+  <data name="ContactProperty_Entity" xml:space="preserve">
+    <value>Contact's property</value>
+  </data>
+  <data name="ContactProperty_List" xml:space="preserve">
+    <value>Contact's properties</value>
+  </data>
+  <data name="Contact_Entity" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Contact_List" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="DbContext_Campaigns" xml:space="preserve">
+    <value>Кампании</value>
+  </data>
+  <data name="DbContext_Companies" xml:space="preserve">
+    <value>Clients</value>
+  </data>
+  <data name="DbContext_CompanyExpenses" xml:space="preserve">
+    <value>Clients - Expenses</value>
+  </data>
+  <data name="DbContext_CompanyIncomes" xml:space="preserve">
+    <value>Clients - Incomes</value>
+  </data>
+  <data name="DbContext_ContactGroups" xml:space="preserve">
+    <value>Кампании - Contact groups</value>
+  </data>
+  <data name="DbContext_DEFs" xml:space="preserve">
+    <value>Directory - DEF-codes</value>
+  </data>
+  <data name="DbContext_Gateways" xml:space="preserve">
+    <value>Кампании - Gateways</value>
+  </data>
+  <data name="DbContext_Jobs" xml:space="preserve">
+    <value>Кампании - Jobs</value>
+  </data>
+  <data name="DbContext_Leads" xml:space="preserve">
+    <value>Кампании - Leads</value>
+  </data>
+  <data name="DbContext_MNPs" xml:space="preserve">
+    <value>Directory - MNP-numbers</value>
+  </data>
+  <data name="DbContext_Providers" xml:space="preserve">
+    <value>Directory - Providers</value>
+  </data>
+  <data name="DbContext_Regions" xml:space="preserve">
+    <value>Directory - Regions</value>
+  </data>
+  <data name="DbContext_Roles" xml:space="preserve">
+    <value>Directory - Roles</value>
+  </data>
+  <data name="DbContext_Scripts" xml:space="preserve">
+    <value>Кампании - Scripts</value>
+  </data>
+  <data name="DbContext_Tariffs" xml:space="preserve">
+    <value>Directory - Tariffs</value>
+  </data>
+  <data name="DbContext_UserLogs" xml:space="preserve">
+    <value>Clients - Accounts - Logs</value>
+  </data>
+  <data name="DbContext_UserRoles" xml:space="preserve">
+    <value>Clients - Accounts - Roles</value>
+  </data>
+  <data name="DbContext_Users" xml:space="preserve">
+    <value>Clients - Accounts</value>
+  </data>
+  <data name="DEF_Entity" xml:space="preserve">
+    <value>DEF-code</value>
+  </data>
+  <data name="DEF_List" xml:space="preserve">
+    <value>DEF-codes</value>
+  </data>
+  <data name="GatewayStream_Entity" xml:space="preserve">
+    <value>Stream</value>
+  </data>
+  <data name="GatewayStream_List" xml:space="preserve">
+    <value>Streams</value>
+  </data>
+  <data name="Gateway_Entity" xml:space="preserve">
+    <value>Gateway</value>
+  </data>
+  <data name="Gateway_List" xml:space="preserve">
+    <value>Gateways</value>
+  </data>
+  <data name="InboxScript_Entity" xml:space="preserve">
+    <value>Callback's script</value>
+  </data>
+  <data name="InboxScript_List" xml:space="preserve">
+    <value>Callback's scripts</value>
+  </data>
+  <data name="JobContact_Entity" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="JobContact_List" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="JobScript_Entity" xml:space="preserve">
+    <value>Job's script</value>
+  </data>
+  <data name="JobScript_List" xml:space="preserve">
+    <value>Job's scripts</value>
+  </data>
+  <data name="Job_Entity" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="Job_List" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="LeadContact_Entity" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="LeadContact_List" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="LeadProperty_Entity" xml:space="preserve">
+    <value>Lead's property</value>
+  </data>
+  <data name="LeadProperty_List" xml:space="preserve">
+    <value>Lead's properties</value>
+  </data>
+  <data name="Lead_Entity" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="Lead_List" xml:space="preserve">
+    <value>Leads</value>
+  </data>
+  <data name="MNP_Entity" xml:space="preserve">
+    <value>MNP-number</value>
+  </data>
+  <data name="MNP_List" xml:space="preserve">
+    <value>MNP-numbers</value>
+  </data>
+  <data name="Operation_Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Operation_Delete" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="Operation_Execute" xml:space="preserve">
+    <value>Execute</value>
+  </data>
+  <data name="Operation_Read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="Operation_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Permission_Message" xml:space="preserve">
+    <value>There is no permissions to perform the operation [{0}] in the table [{1}]. Please contact your administrator.</value>
+  </data>
+  <data name="Provider_Entity" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="Provider_List" xml:space="preserve">
+    <value>Providers</value>
+  </data>
+  <data name="Region_Entity" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Region_List" xml:space="preserve">
+    <value>Regions</value>
+  </data>
+  <data name="ScriptCondition_Entity" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="ScriptCondition_List" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="ScriptElement_Entity" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="ScriptElement_List" xml:space="preserve">
+    <value>Elements</value>
+  </data>
+  <data name="ScriptInputParameter_Entity" xml:space="preserve">
+    <value>Input parameter</value>
+  </data>
+  <data name="ScriptInputParameter_List" xml:space="preserve">
+    <value>Input parameters</value>
+  </data>
+  <data name="ScriptOutputParameter_Entity" xml:space="preserve">
+    <value>Output parameter</value>
+  </data>
+  <data name="ScriptOutputParameter_List" xml:space="preserve">
+    <value>Output parameters</value>
+  </data>
+  <data name="ScriptProperty_Entity" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="ScriptProperty_List" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="ScriptVariable_Entity" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="ScriptVariable_List" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="Script_Entity" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="Script_List" xml:space="preserve">
+    <value>Scripts</value>
+  </data>
+  <data name="TariffCondition_Entity" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="TariffCondition_List" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="Tariff_Entity" xml:space="preserve">
+    <value>Tariff</value>
+  </data>
+  <data name="Tariff_List" xml:space="preserve">
+    <value>Tariffs</value>
+  </data>
+</root>

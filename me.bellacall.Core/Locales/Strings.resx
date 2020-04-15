@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AspNetRolePermission_Entity" xml:space="preserve">
+    <value>Разрешение</value>
+  </data>
+  <data name="AspNetRolePermission_List" xml:space="preserve">
+    <value>Разрешения</value>
+  </data>
+  <data name="AspNetRole_Entity" xml:space="preserve">
+    <value>Роль</value>
+  </data>
+  <data name="AspNetRole_List" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="AspNetUserLog_Entity" xml:space="preserve">
+    <value>Операция</value>
+  </data>
+  <data name="AspNetUserLog_List" xml:space="preserve">
+    <value>Журнал операций</value>
+  </data>
+  <data name="AspNetUserRole_Entity" xml:space="preserve">
+    <value>Роль аккаунта</value>
+  </data>
+  <data name="AspNetUserRole_List" xml:space="preserve">
+    <value>Роли аккаунта</value>
+  </data>
+  <data name="AspNetUser_Entity" xml:space="preserve">
+    <value>Аккаунт</value>
+  </data>
+  <data name="AspNetUser_List" xml:space="preserve">
+    <value>Аккаунты</value>
+  </data>
+  <data name="Campaign_Entity" xml:space="preserve">
+    <value>Кампания</value>
+  </data>
+  <data name="Campaign_List" xml:space="preserve">
+    <value>Кампании</value>
+  </data>
+  <data name="Cascade_Message" xml:space="preserve">
+    <value>{0} содержит [{1}]. Удаление недопустимо.</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="CompanyExpense_Entity" xml:space="preserve">
+    <value>Списание средств</value>
+  </data>
+  <data name="CompanyExpense_List" xml:space="preserve">
+    <value>Списания средств</value>
+  </data>
+  <data name="CompanyIncome_Entity" xml:space="preserve">
+    <value>Начисление средств</value>
+  </data>
+  <data name="CompanyIncome_List" xml:space="preserve">
+    <value>Начисления средств</value>
+  </data>
+  <data name="Company_Entity" xml:space="preserve">
+    <value>Клиент</value>
+  </data>
+  <data name="Company_List" xml:space="preserve">
+    <value>Клиенты</value>
+  </data>
+  <data name="ContactGroup_Entity" xml:space="preserve">
+    <value>Группа контактов</value>
+  </data>
+  <data name="ContactGroup_List" xml:space="preserve">
+    <value>Группы контактов</value>
+  </data>
+  <data name="ContactProperty_Entity" xml:space="preserve">
+    <value>Свойство контакта</value>
+  </data>
+  <data name="ContactProperty_List" xml:space="preserve">
+    <value>Свойства контакта</value>
+  </data>
+  <data name="Contact_Entity" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="Contact_List" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="DbContext_Campaigns" xml:space="preserve">
+    <value>Кампании</value>
+  </data>
+  <data name="DbContext_Companies" xml:space="preserve">
+    <value>Клиенты</value>
+  </data>
+  <data name="DbContext_CompanyExpenses" xml:space="preserve">
+    <value>Клиенты - Списания средств</value>
+  </data>
+  <data name="DbContext_CompanyIncomes" xml:space="preserve">
+    <value>Клиенты - Начисления средств</value>
+  </data>
+  <data name="DbContext_ContactGroups" xml:space="preserve">
+    <value>Кампании - Группы контактов</value>
+  </data>
+  <data name="DbContext_DEFs" xml:space="preserve">
+    <value>Справочники - DEF-коды</value>
+  </data>
+  <data name="DbContext_Gateways" xml:space="preserve">
+    <value>Кампании - Шлюзы</value>
+  </data>
+  <data name="DbContext_Jobs" xml:space="preserve">
+    <value>Кампании - Рассылки</value>
+  </data>
+  <data name="DbContext_Leads" xml:space="preserve">
+    <value>Кампании - Лиды</value>
+  </data>
+  <data name="DbContext_MNPs" xml:space="preserve">
+    <value>Справочники - Перенесенные номера</value>
+  </data>
+  <data name="DbContext_Providers" xml:space="preserve">
+    <value>Справочники - Операторы связи</value>
+  </data>
+  <data name="DbContext_Regions" xml:space="preserve">
+    <value>Справочники - Регионы</value>
+  </data>
+  <data name="DbContext_Roles" xml:space="preserve">
+    <value>Справочники - Роли</value>
+  </data>
+  <data name="DbContext_Scripts" xml:space="preserve">
+    <value>Кампании - Сценарии</value>
+  </data>
+  <data name="DbContext_Tariffs" xml:space="preserve">
+    <value>Справочники - Тарифы</value>
+  </data>
+  <data name="DbContext_UserLogs" xml:space="preserve">
+    <value>Клиенты - Аккаунты - Журнал операций</value>
+  </data>
+  <data name="DbContext_UserRoles" xml:space="preserve">
+    <value>Клиенты - Аккаунты - Роли</value>
+  </data>
+  <data name="DbContext_Users" xml:space="preserve">
+    <value>Клиенты - Аккаунты</value>
+  </data>
+  <data name="DEF_Entity" xml:space="preserve">
+    <value>DEF-код</value>
+  </data>
+  <data name="DEF_List" xml:space="preserve">
+    <value>DEF-коды</value>
+  </data>
+  <data name="GatewayStream_Entity" xml:space="preserve">
+    <value>Поток</value>
+  </data>
+  <data name="GatewayStream_List" xml:space="preserve">
+    <value>Потоки</value>
+  </data>
+  <data name="Gateway_Entity" xml:space="preserve">
+    <value>Шлюз</value>
+  </data>
+  <data name="Gateway_List" xml:space="preserve">
+    <value>Шлюзы</value>
+  </data>
+  <data name="InboxScript_Entity" xml:space="preserve">
+    <value>Сценарий коллбэка</value>
+  </data>
+  <data name="InboxScript_List" xml:space="preserve">
+    <value>Сценарии коллбэка</value>
+  </data>
+  <data name="JobContact_Entity" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="JobContact_List" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="JobScript_Entity" xml:space="preserve">
+    <value>Сценарий рассылки</value>
+  </data>
+  <data name="JobScript_List" xml:space="preserve">
+    <value>Сценарии рассылки</value>
+  </data>
+  <data name="Job_Entity" xml:space="preserve">
+    <value>Рассылка</value>
+  </data>
+  <data name="Job_List" xml:space="preserve">
+    <value>Рассылки</value>
+  </data>
+  <data name="LeadContact_Entity" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="LeadContact_List" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="LeadProperty_Entity" xml:space="preserve">
+    <value>Свойство лида</value>
+  </data>
+  <data name="LeadProperty_List" xml:space="preserve">
+    <value>Свойства лида</value>
+  </data>
+  <data name="Lead_Entity" xml:space="preserve">
+    <value>Лид</value>
+  </data>
+  <data name="Lead_List" xml:space="preserve">
+    <value>Лиды</value>
+  </data>
+  <data name="MNP_Entity" xml:space="preserve">
+    <value>Перенесенный номер</value>
+  </data>
+  <data name="MNP_List" xml:space="preserve">
+    <value>Перенесенные номера</value>
+  </data>
+  <data name="Operation_Create" xml:space="preserve">
+    <value>Добавление</value>
+  </data>
+  <data name="Operation_Delete" xml:space="preserve">
+    <value>Удаление</value>
+  </data>
+  <data name="Operation_Execute" xml:space="preserve">
+    <value>Выполнение</value>
+  </data>
+  <data name="Operation_Read" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="Operation_Update" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="Permission_Message" xml:space="preserve">
+    <value>Нет прав на выполнение операции [{0}] в таблице [{1}]. Обратитесь к администратору.</value>
+  </data>
+  <data name="Provider_Entity" xml:space="preserve">
+    <value>Оператор связи</value>
+  </data>
+  <data name="Provider_List" xml:space="preserve">
+    <value>Операторы связи</value>
+  </data>
+  <data name="Region_Entity" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="Region_List" xml:space="preserve">
+    <value>Регионы</value>
+  </data>
+  <data name="ScriptCondition_Entity" xml:space="preserve">
+    <value>Условный переход</value>
+  </data>
+  <data name="ScriptCondition_List" xml:space="preserve">
+    <value>Условные переходы</value>
+  </data>
+  <data name="ScriptElement_Entity" xml:space="preserve">
+    <value>Элемент</value>
+  </data>
+  <data name="ScriptElement_List" xml:space="preserve">
+    <value>Элементы</value>
+  </data>
+  <data name="ScriptInputParameter_Entity" xml:space="preserve">
+    <value>Входной параметр</value>
+  </data>
+  <data name="ScriptInputParameter_List" xml:space="preserve">
+    <value>Входные параметры</value>
+  </data>
+  <data name="ScriptOutputParameter_Entity" xml:space="preserve">
+    <value>Выходной параметр</value>
+  </data>
+  <data name="ScriptOutputParameter_List" xml:space="preserve">
+    <value>Выходные параметры</value>
+  </data>
+  <data name="ScriptProperty_Entity" xml:space="preserve">
+    <value>Свойство</value>
+  </data>
+  <data name="ScriptProperty_List" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="ScriptVariable_Entity" xml:space="preserve">
+    <value>Переменная</value>
+  </data>
+  <data name="ScriptVariable_List" xml:space="preserve">
+    <value>Переменные</value>
+  </data>
+  <data name="Script_Entity" xml:space="preserve">
+    <value>Сценарий</value>
+  </data>
+  <data name="Script_List" xml:space="preserve">
+    <value>Сценарии</value>
+  </data>
+  <data name="TariffCondition_Entity" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="TariffCondition_List" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="Tariff_Entity" xml:space="preserve">
+    <value>Тариф</value>
+  </data>
+  <data name="Tariff_List" xml:space="preserve">
+    <value>Тарифы</value>
+  </data>
+</root>
